@@ -1,17 +1,27 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"engines": {
-		"node": "4.4.5"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "name": "fcc-requuest-header-microserive",
+  "version": "1.0.0",
+  "description": "freeCodeCamp Request Header Microservice Project",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtelesPaniscus/fcc-request-header-microservice"
+  },
+  "homepage": "https://glitch.com/request-header-microservice-pa",
+  "keywords": [
+    "fcc",
+    "microservice",
+    "full stack",
+    "Express",
+    "Node",
+    "javascript"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "AtelesPaniscus",
+  "license": "MIT",
+  "dependencies": {
+      "express": "^4.12.4"
+  }
 }
